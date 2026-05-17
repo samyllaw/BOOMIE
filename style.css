@@ -6,7 +6,7 @@
   --color-link: #1a1a1a;
   --color-link-hover: #555;
   --color-divider: rgba(0,0,0,0.08);
-  --font: 'DM Sans', sans-serif;
+  --font: 'Geist', sans-serif;
   --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
 }
 html { scroll-behavior: smooth; }
@@ -43,8 +43,8 @@ body {
 .header__brand { display: flex; flex-direction: row; align-items: center; gap: 10px; }
 .header__logo { display: block; flex-shrink: 0; width: 26px; height: 26px; object-fit: contain; }
 .header__text { display: flex; flex-direction: column; line-height: 1.25; }
-.header__name { font-weight: 500; font-size: 13px; letter-spacing: 0.08em; }
-.header__subtitle { font-weight: 300; font-size: 11px; color: var(--color-muted); letter-spacing: 0.04em; }
+.header__name { font-weight: 500; font-size: 13px; letter-spacing: 0em; }
+.header__subtitle { font-weight: 300; font-size: 11px; color: var(--color-muted); letter-spacing: 0em; }
 .header__cta {
   display: inline-flex; align-items: center; gap: 8px;
   color: var(--color-link); text-decoration: none;
