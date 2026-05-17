@@ -74,7 +74,7 @@ body {
 
 /* ── Hero ── */
 .hero {
-  min-height: 78vh;
+  min-height: 120vh;
   display: flex;
   align-items: flex-end;
   justify-content: flex-start;
