@@ -64,8 +64,8 @@ body {
 
 /* ── Hero ── */
 .hero {
-  display: flex; align-items: bottom;
-  justify-content: left; padding: 0 36px; text-align: left;
+  display: flex; align-items: bottom-left;
+  justify-content: bottom-left; padding: 0 36px; text-align: bottom-left;
   min-height: 100vh;
 }
 .hero__content { max-width: 860px; }
